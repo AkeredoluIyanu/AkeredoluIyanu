@@ -1,0 +1,9 @@
+matplotlib==3.4.3
+pandas==1.3.4
+scikit_learn==1.1.2
+seaborn==0.11.2
+streamlit==1.11.0
+<<<<<<< HEAD
+=======
+gunicorn==20.1.0
+>>>>>>> 35c03fe (added heroku files)

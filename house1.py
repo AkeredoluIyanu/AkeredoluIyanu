@@ -134,8 +134,8 @@ new_prediction = forest.predict([[area, int_sqft, n_bedroom, n_bathroom,
                                      n_room, sale_c, build_type, mzzone, reg_fee, commis, park]])
 
 st.subheader("Predicting house prices:")
-st.write('We predict the house price is ${}'.format(new_prediction))
-st.write('We used a machine learning (Random Forest) model to '
+st.write('The model predict the house price is ${}'.format(new_prediction))
+st.write('I used a machine learning (Random Forest) model to '
  'predict the prices, the features used in this prediction '
  ' are ranked by relative importance below.')
 st.image('feature_importance.png')

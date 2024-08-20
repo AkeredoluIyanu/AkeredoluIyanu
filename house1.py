@@ -1,4 +1,5 @@
-pip install streamlit
+pip install upgrade --pip
+pip install upgrade streamlit
 import streamlit as st
 import pickle
 import pandas as pd
